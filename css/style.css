@@ -1,120 +1,131 @@
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "roboto", sans-serif;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 header {
-  background-color: rgb(56, 111, 56);
-  display: flex;
-  width: 100%;
-  height: 150px;
-  align-items: center;
-  margin-bottom: 1%;
+    background-color: rgb(56, 111, 56);
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    margin-bottom: 1%;
 }
 
 .logo img {
-  height: 130px;
-  width: 67%;
-  border-radius: 50%;
-  margin-left: 20%;
+    height: 130px;
+    width: 67%;
+    border-radius: 50%;
+    margin-left: 20%;
 }
 
 header h1 {
-  font-family: fantasy;
-  font-weight: 500;
-  color: #ffffff;
-  width: 62%;
+    font-family: fantasy;
+    font-weight: 500;
+    color: #ffffff;
+    width: 62%;
 }
 
 nav a {
-  background-color:rgb(187, 29, 29) ;
-  border-radius: 20px;
+    background-color: rgb(187, 29, 29);
+    border-radius: 20px;
 }
 
 a {
-  font-style: normal;
-  font-size: 20px;
-  color: rgb(246, 238, 238);
-  width: 100%;
-  padding: 15px;
-  text-decoration: none;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(246, 238, 238);
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
 }
 
 .banner {
-  background-image: url(../img/banner.jpg);
-  width: 100%;
-  height: 700px;
-  opacity: 0.9;
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+    height: 700px;
+    opacity: 0.9;
 }
 
 .banner p {
-  color: #ffffff;
-  font-size: 1.5em;
+    color: #ffffff;
+    font-size: 1.5em;
 }
 
-body{
+body {
     background-color: #c3f9c8;
     height: 600px;
     background-repeat: no-repeat;
 }
 
 #curiosidade-conteiner {
-  height: 700px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 3%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
 }
 
 h2 {
-  margin-top: 5%;
-  font-size: 45px;
-  width: 100%;
-  padding-left: 3.5%;
+    margin-top: 5%;
+    font-size: 45px;
+    width: 100%;
+    padding-left: 3.5%;
 }
 
 .praia {
-  width: 80%;
-  height: 534px;
-  border-radius: 31px;
-  margin-left: 13%;
+    width: 80%;
+    height: 534px;
+    border-radius: 31px;
+    margin-left: 13%;
 }
 
 .pomerode {
-  width: 80%;
-  height: 534px;
-  border-radius: 31px;
-  margin-left: 8%;
+    width: 80%;
+    height: 534px;
+    border-radius: 31px;
+    margin-left: 8%;
 }
 
 .card3 {
-  width: 76%;
-  height: 534px;
-  border-radius: 31px;
-  margin-left: 8%;
+    width: 76%;
+    height: 534px;
+    border-radius: 31px;
+    margin-left: 8%;
 }
 
 .curiosidade p {
     width: 70%;
     font-size: 14px;
-    color:rgba(167, 8, 8, 0.87);
+    color: rgba(167, 8, 8, 0.87);
 }
 
+
+
+.video-conteiner iframe {
+    position: absolute;
+    width: 1077px;
+    height: 534px;
+    left: 123px;
+    top: 310%;
+}
+
+
 footer {
-  background: rgba(167, 8, 8, 0.87);
-  position: absolute;
-  width: 100%;
-  height: 180px;
-  margin-top: 2442px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
+    background: rgba(167, 8, 8, 0.87);
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    margin-top: 2442px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
 }
 
 footer img {
-  width: 200px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
 }
